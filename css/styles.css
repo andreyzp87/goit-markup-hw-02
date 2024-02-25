@@ -152,6 +152,7 @@ address {
 }
 
 .hero-button {
+    cursor: pointer;
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }

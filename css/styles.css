@@ -156,6 +156,11 @@ address {
     color: var(--primary-white-color);
 }
 
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--accent-active-color);
+}
+
 .specialities-title {
     text-align: center;
 }
@@ -198,4 +203,14 @@ address {
 
 .portfolio-link {
     color: inherit;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+    color: var(--accent-active-color);
+}
+
+.portfolio-link:hover .portfolio-title,
+.portfolio-link:focus .portfolio-title {
+    color: var(--accent-active-color);
 }
